@@ -1,5 +1,5 @@
 {
-  "name": "Pencil",
+  "name": "Maqueta",
   "devDependencies": {
     "electron-builder": "13.3.0",
     "electron": "1.4.14",
@@ -7,8 +7,8 @@
   },
   "build": {
     "appId": "vn.evolus.pencil",
-    "productName": "Pencil",
-    "copyright": "Copyright © 2008-2016 Evolus. All rights reserved.",
+    "productName": "Maqueta",
+    "copyright": "Copyright © 2008-2017 Creador S.A. All rights reserved.",
     "mac": {
       "category": "public.app-category.graphics-design"
     },
@@ -51,8 +51,8 @@
       "cache": ".electron-cache"
     },
     "fileAssociations": {
-      "ext": ["ep", "epz", "epgz"],
-      "name": "Pencil Document"
+      "ext": ["ep", "epz", "epgz", "cmq"],
+      "name": "Maqueta CMQ"
 	}
   },
   "scripts": {
