@@ -1,8 +1,8 @@
 function PageDetailDialog() {
     Dialog.call(this);
     this.modified = false;
-    this.title = "Add Page";
-    this.subTitle = "Configure page properties";
+    this.title = "Add Screen";
+    this.subTitle = "Configure screen properties";
     this.pageCombo.renderer = function (canvas) {
         return canvas.name;
     };
@@ -436,13 +436,13 @@ PageDetailDialog.prototype.getDialogActions = function () {
             run: function () {
                 var pageName = this.pageTitle.value;
                 if (pageName == "" ) {
-                    Dialog.error("The page name is invalid. Please enter the valid page name.");
+                    Dialog.error("The screen name is invalid. Please enter the valid screen name.");
                     return;
                 }
 
                 if (this.originalPage && this.originalPage.name != pageName || !this.originalPage) {
                     if (Pencil.controller.findPageByName(pageName)) {
-                        Dialog.confirm("The page name '" + pageName + "' has existed. Do you want to continue " + (this.originalPage ? "updating the" : "creating a") + " page with this name?",
+                        Dialog.confirm("The screen name '" + pageName + "' has existed. Do you want to continue " + (this.originalPage ? "updating the" : "creating a") + " screen with this name?",
                                 null,
                                 "Yes, continue",
                                 function () {

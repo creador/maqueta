@@ -115,12 +115,12 @@ ApplicationPane.prototype.onAttached = function () {
 };
 ApplicationPane.prototype.invalidateUIForControllerStatus = function () {
     if (this.controller.doc) {
-        document.title = this.controller.getDocumentName() + " - Pencil";
+        document.title = this.controller.getDocumentName() + " - Maqueta";
         this.pageListView.node().style.display = "inline-block";
         this.pageListView.renderPages()
     } else {
         this.pageListView.node().style.display = "none";
-        document.title = "Pencil";
+        document.title = "Maqueta";
     }
 
 };

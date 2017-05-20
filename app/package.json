@@ -1,25 +1,25 @@
 {
-  "name": "Pencil",
-  "productName": "Pencil",
-  "description": "An open-source GUI prototyping tool that is available for ALL platforms.",
+  "name": "Maqueta",
+  "productName": "Maqueta",
+  "description": "An open-source GUI prototyping tool for Concepto DSL.",
   "version": "3.0.2",
   "author": {
-    "name": "Evolus",
-    "url": "http://evolus.vn",
-    "email": "contact@evolus.vn"
+    "name": "Creador S.A.",
+    "url": "http://www.creador.cl",
+    "email": "comercial@creador.cl"
   },
   "maintainers": [
     {
-      "email": "an.duong@evolus.vn",
-      "name": "dgthanhan"
+      "email": "pablo@creador.cl",
+      "name": "Pablo Schaffner"
     },
     {
       "email": "ngtdungnt@gmail.com",
       "name": "Nguyen Tien Dzung"
     }
   ],
-  "copyright": "Copyright © 2008-2017 Evolus. All rights reserved.",
-  "homepage": "http://pencil.evolus.vn",
+  "copyright": "Copyright © 2008-2017 Creador S.A.. All rights reserved.",
+  "homepage": "http://www.creador.cl",
   "license": "GPL2",
   "main": "index.js",
   "js-flags": "--expose-gc",
@@ -32,6 +32,8 @@
   "keywords": [
     "electron",
     "pencil",
+    "creador",
+    "maqueta",
     "ui",
     "prototyping",
     "mockup",
